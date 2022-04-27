@@ -1,10 +1,9 @@
 *{
     margin:0;    
     padding:0;
+    box-sizing: border-box;
 }
- /* html, body{
-    height: 100%;
-}  */
+
 body{
     font-family: 'Raleway', sans-serif;
     color: white;
@@ -42,18 +41,23 @@ h2{
     padding-bottom:05px;
 }
 .link-list li{
-    margin: 10px 20px;
+    margin: 20px 20px;
 }
-.link-list li a{    
+.link-list li a{
     display: block;    
     padding: 15px 20px;
-    background:rgba(51, 50, 50, 0.507);
-    border-radius: 4px;
+    background:rgba(128, 128, 128, 0.507);
+    box-shadow: 0 0 10px rgb(2, 2, 2);
+    border-radius: 15px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight:bold; 
     text-align: center;
     font-size: 16px;
+}
+.link-list li a:hover{
+    background:rgba(2, 2, 2, 0.507);
+    box-shadow:none;    
 }
 .link-list li a span{
     display: block;
